@@ -1,4 +1,3 @@
-import React from 'react';
 import type { MenuItem } from '../types';
 import { Clock, Plus } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';

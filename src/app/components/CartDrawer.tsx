@@ -1,4 +1,3 @@
-import React from 'react';
 import type { CartItem } from '../types';
 import { X, Plus, Minus, ShoppingCart } from 'lucide-react';
 

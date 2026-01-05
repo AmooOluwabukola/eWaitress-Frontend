@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Order, MenuItem, Staff } from '../types';
 import { ArrowLeft, Package, DollarSign, Users, UtensilsCrossed, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';

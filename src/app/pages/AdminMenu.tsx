@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import type { MenuItem } from '../types';
 import { ArrowLeft, Plus, Pencil, Trash2 } from 'lucide-react';
 import { toast } from 'sonner';
@@ -11,7 +11,7 @@ interface AdminMenuProps {
   onUpdateItem: (item: MenuItem) => void;
 }
 
-export function AdminMenu({ menuItems, onBack, onToggleAvailability, onUpdateItem }: AdminMenuProps) {
+export function AdminMenu({ menuItems, onBack, onToggleAvailability}: AdminMenuProps) {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [editingItem, setEditingItem] = useState<MenuItem | null>(null);
 

@@ -1,6 +1,5 @@
-import React from 'react';
 import type { UserRole } from '../types';
-import { User, Shield, Briefcase, ChefHat } from 'lucide-react';
+import {  Shield, Briefcase, ChefHat } from 'lucide-react';
 
 interface RoleSelectorProps {
   onSelectRole: (role: UserRole) => void;

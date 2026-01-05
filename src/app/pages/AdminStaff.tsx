@@ -1,4 +1,3 @@
-import React from 'react';
 import type  { Staff } from '../types';
 import { ArrowLeft, UserPlus, Mail, Phone } from 'lucide-react';
 import { toast } from 'sonner';

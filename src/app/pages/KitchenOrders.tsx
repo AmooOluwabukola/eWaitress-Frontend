@@ -1,4 +1,3 @@
-import React from 'react';
 import  type{ Order } from '../types';
 import { ArrowLeft, Clock, ChefHat, CircleCheck } from 'lucide-react';
 import { toast } from 'sonner';

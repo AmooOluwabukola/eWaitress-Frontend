@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import type { MenuItem, CartItem } from '../types';
 import { FoodCard } from '../components/FoodCard';
 import { CartDrawer } from '../components/CartDrawer';

@@ -1,6 +1,5 @@
-import React from 'react';
 import type { Order } from '../types';
-import { ArrowLeft, Clock, CircleCheck, Package, Truck, ChefHat } from 'lucide-react';
+import { ArrowLeft, Clock, CircleCheck, ChefHat } from 'lucide-react';
 
 interface OrderStatusProps {
   order: Order;
@@ -8,22 +7,22 @@ interface OrderStatusProps {
 }
 
 export function OrderStatus({ order, onBack }: OrderStatusProps) {
-  const getStatusIcon = (status: Order['status']) => {
-    switch (status) {
-      case 'pending':
-        return <Clock className="w-6 h-6" />;
-      case 'confirmed':
-        return <CircleCheck className="w-6 h-6" />;
-      case 'preparing':
-        return <ChefHat className="w-6 h-6" />;
-      case 'ready':
-        return <Package className="w-6 h-6" />;
-      case 'delivered':
-        return <Truck className="w-6 h-6" />;
-      default:
-        return <CircleCheck className="w-6 h-6" />;
-    }
-  };
+  // const getStatusIcon = (status: Order['status']) => {
+  //   switch (status) {
+  //     case 'pending':
+  //       return <Clock className="w-6 h-6" />;
+  //     case 'confirmed':
+  //       return <CircleCheck className="w-6 h-6" />;
+  //     case 'preparing':
+  //       return <ChefHat className="w-6 h-6" />;
+  //     case 'ready':
+  //       return <Package className="w-6 h-6" />;
+  //     case 'delivered':
+  //       return <Truck className="w-6 h-6" />;
+  //     default:
+  //       return <CircleCheck className="w-6 h-6" />;
+  //   }
+  // };
 
   const statusSteps = [
     { key: 'pending', label: 'Order Received' },

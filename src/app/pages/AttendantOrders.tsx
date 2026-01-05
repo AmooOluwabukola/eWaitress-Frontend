@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import type { Order } from '../types';
 import { ArrowLeft, Package, CircleCheck, Truck } from 'lucide-react';
 import { toast } from 'sonner';
