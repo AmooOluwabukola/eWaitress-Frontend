@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Toaster } from 'sonner';
 import type { UserRole, Order, CartItem, MenuItem, OrderStatus, Staff } from './app/types';
-import { menuItems as initialMenuItems, initialOrders, staff as initialStaff, payments } from './app/data/mockData';
+import { menuItems as initialMenuItems, initialOrders, staff as initialStaff} from './app/data/mockData';
 import { RoleSelector } from './app/components/RoleSelector';
 import { GuestMenu } from './app/pages/GuestMenu';
 import { Checkout } from './app/pages/Checkout';
